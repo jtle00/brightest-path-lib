@@ -96,7 +96,7 @@ class BidirectionalNode:
         if point.dtype != np.int64:
             point = point.astype(np.int64)
             
-        self._point = point
+        self.point = point
         self._g_score_from_start = float(g_score_from_start)
         self._g_score_from_goal = float(g_score_from_goal)
         self._h_score_from_start = float(h_score_from_start)

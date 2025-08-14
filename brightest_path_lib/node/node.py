@@ -58,7 +58,7 @@ class Node:
         if point.dtype != np.int64:
             point = point.astype(np.int64)
             
-        self._point = point
+        self.point = point
         self._g_score = float(g_score)
         self._h_score = float(h_score)
         # Use Numba function for f_score calculation

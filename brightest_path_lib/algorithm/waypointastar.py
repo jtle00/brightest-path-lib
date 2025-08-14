@@ -11,8 +11,8 @@ from typing import List, Tuple, Dict, Set, Any, Optional
 import numba as nb
 from numba import njit, prange, jit
 
-from brightest_path_lib.algorithm.astar import (
-    BidirectionalAStarSearch, array_equal, euclidean_distance_scaled,
+from brightest_path_lib.algorithm.nbastar import (
+    NBAStarSearch, array_equal, euclidean_distance_scaled,
     find_2D_neighbors_optimized, find_3D_neighbors_optimized
 )
 from brightest_path_lib.cost import Reciprocal
