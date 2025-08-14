@@ -27,7 +27,7 @@ jobs:
       - name: Build and publish (johnson)
         env:
           TWINE_USERNAME: __token__
-          TWINE_PASSWORD: ${{ secrets.TWINE_API_KEY }}
+          TWINE_PASSWORD: ${{ secrets.TEST_PYPI_TOKEN }}
         run: |
           git tag
           python -m build .
