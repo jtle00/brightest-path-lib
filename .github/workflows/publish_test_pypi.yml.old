@@ -1,8 +1,8 @@
 name: Publish brightest to test PyPi (johnson)
 
-# on:
-#   release:
-#     types: [published] # Runs when a new GitHub release is published
+on:
+  release:
+    types: [published] # Runs when a new GitHub release is published
 
 jobs:
   deploy:
