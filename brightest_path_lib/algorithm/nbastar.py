@@ -1,6 +1,9 @@
 """ New Bidirectional A* Search Algorithm (NBA*)
 Advanced optimized A* search implementation for finding the brightest path in an image.
-This version includes additional performance optimizations beyond the previous version."""
+This version includes additional performance optimizations beyond the previous version.
+
+Developed by Github user: nipunarora8
+"""
 
 import heapq
 import math

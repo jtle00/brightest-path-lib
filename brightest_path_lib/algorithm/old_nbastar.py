@@ -1,6 +1,10 @@
 # algorithm/nbastar.py
 
-"""The New Bidirectional A* Search Algorithm is an improvement over the
+""" 
+
+*** DEPRECATED ***
+
+The New Bidirectional A* Search Algorithm is an improvement over the
 original Bidirectional A* Search algorithm, which is a variation of the
 A* Search algorithm that searches from both the start and goal nodes 
 simultaneously in order to find the shortest path more efficiently.
